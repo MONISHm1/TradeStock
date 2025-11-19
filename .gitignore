@@ -1,36 +1,28 @@
-# --- GLOBAL ---
-
+# GLOBAL
 node_modules/
 .env
 *.log
-.DS_Store
 
-# Vite + React cache
-.vite/
-dist/
-build/
-
-# --- BACKEND ---
+# BACKEND
 backend/node_modules/
 backend/.env
-backend/.cache/
-backend/debug.log
+backend/dist/
+backend/.vite/
 
-# --- FRONTEND ---
+# FRONTEND
 frontend/node_modules/
 frontend/.env
-frontend/.vite/
 frontend/dist/
+frontend/.vite/
 
-# --- DASHBOARD ---
+# DASHBOARD
 dashboard/node_modules/
 dashboard/.env
-dashboard/.vite/
 dashboard/dist/
+dashboard/.vite/
 
-# Editor & system files
+# IDE FILES
 .vscode/
 .idea/
-
-# OS files
+.DS_Store
 Thumbs.db
